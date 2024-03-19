@@ -185,7 +185,6 @@ a:hover {
 .project2 {
   margin-top: 30rem;
   margin-left: 20rem;
-
   display: inline-flex;
   justify-content: center;
 }
@@ -198,11 +197,13 @@ a:hover {
   margin-top: 10px;
 }
 
-.project2 img {
+.project2 img,
+.calculatorpgn {
   border-radius: 10px;
 }
 
-.title2 {
+.title2,
+.title3 {
   color: rgb(223, 0, 223);
   font-size: 1.3rem;
   margin-bottom: 10px;
@@ -212,4 +213,24 @@ a:hover {
   font-size: 1.2rem;
   cursor: pointer;
   text-decoration: none;
+}
+
+.project3 {
+  margin-top: 3rem;
+  margin-left: 20rem;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.presentation3 {
+  margin: 10px;
+  font-size: 1.4rem;
+  color: black;
+  width: 500px;
+}
+
+.code3 {
+  font-size: 1.2rem;
+  position: absolute;
+  right: 10rem;
 }
